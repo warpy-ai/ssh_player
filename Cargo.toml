@@ -1,0 +1,25 @@
+[package]
+name = "ssh_player"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.86"
+async-trait = "0.1.80"
+bubblers = "0.1.0"
+clap = "4.5.4"
+env_logger = "0.11.3"
+log = "0.4.21"
+russh = "0.43.0"
+russh-keys = "0.43.0"
+shell-escape = "0.1.5"
+ssh-key = "0.6.6"
+termion = "4.0.0"
+tokio = { version = "1.37.0", features = ["full"] }
+
+
+[dev-dependencies]
+env_logger = "0.11.3"
+shell-escape = "0.1"
